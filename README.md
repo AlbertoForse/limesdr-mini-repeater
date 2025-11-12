@@ -11,7 +11,7 @@ Bare-metal Python control of LimeSDR Mini for GSM-R repeater application.
 
 - LimeSDR Mini (LMS7002M chip)
 - Frequency: 100 MHz - 3.8 GHz
-- GSM-R: 380-390 MHz
+- GSM-R: 876-880MHz uplink and 921-925MHz down-link 
 
 ## Development
 
