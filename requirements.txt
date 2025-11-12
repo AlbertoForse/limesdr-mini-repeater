@@ -1,0 +1,26 @@
+# LimeSDR Mini Python Development Environment
+# Bare-metal register control and GSM-R repeater implementation
+
+# Core hardware interface (you'll need to build liblimeapi.so)
+# IMPORTANT: This project uses direct register access via liblimeapi.so
+# NO HIGH-LEVEL ABSTRACTIONS - bare metal control only
+
+# Development and testing
+pytest>=7.0.0
+pytest-cov>=3.0.0
+
+# Documentation
+sphinx>=4.0.0
+sphinx-rtd-theme>=1.0.0
+
+# Code quality
+pylint>=2.10.0
+black>=21.0.0
+flake8>=3.9.0
+
+# Numerical operations for signal processing
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Optional: for data visualization during development
+matplotlib>=3.4.0
